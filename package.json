@@ -1,0 +1,29 @@
+{
+  "name": "coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "block.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev_test": "nodemon dev_test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1",
+    "express": "^4.16.4",
+    "uuid": "^3.3.2",
+    "ws": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
