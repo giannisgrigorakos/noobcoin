@@ -1,5 +1,5 @@
 # noobcoin
-~ Open in fullscreen to maintain the layout ~
+A basic cryptocurrency following bitcoin's convention
 
 ~ For linux users:
     cd /path_to_noobcoin_folder/noobcoin
